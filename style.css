@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; /* Fundo claro */
+    text-align: center; /* Centraliza os elementos */
+    padding: 20px;
+}
+
+p {
+    font-size: 4rem; /* Deixa o número maior */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 2rem; /* Tamanho médio */
+    padding: 20px 30px; /* Aumenta a área clicável */
+    margin: 20px; /* Dá espaço entre os botões */
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    cursor: pointer;
+}
+
+#decrementar {
+    background-color: #ff6b6b; /* Vermelho claro */
+    color: white;
+}
+
+#incrementar {
+    background-color: #4caf50; /* Verde */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8; /* Efeito ao passar o mouse - peguei no google */
+}
